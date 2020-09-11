@@ -136,7 +136,7 @@ public class MainView extends FrameView {
         JButton btnSelTabName = new JButton("标签名修改");
         JButton btnCloseTab = new JButton("关闭标签");
         
-        btnFormat.setBackground(Color.GREEN);
+//        btnFormat.setBackground(Color.GREEN);
 
         btnAppTitle.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
