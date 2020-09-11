@@ -6,20 +6,20 @@ JSON作为一种数据交换格式越来越多地被用于web开发中，并在�
 
 HiJson使用java开发，基于gson包，格式化json字符并以树的形式展示，支持各种常用操作，支持多标签！
 
-
-
 ## Requirement
 
 * NetBeans IDE 8
 * JDK 1.7 or higher
 
-
-
-
 ## About
-
 License: [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
 Author: [藏言(Cangyan)](mailto:beetle082@163.com)
 
 Website: [HiJson](https://code.google.com/p/json-view/)
+
+## Write by 2020.9.11, Convictss (原作者不再维护)
+* 2.1.4版本更新
+  * 对值为空的键仍旧输出
+  * 增加ctrl+w快速关闭当前标签
+  * 预先打包好.exe文件([点击下载](https://github.com/convictss/HiJson/blob/master/product/HiJson%202.1.2_jdk64_by_convictss.exe))
