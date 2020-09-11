@@ -134,7 +134,7 @@ public class MainView extends FrameView {
         JButton btnNodeFind = new JButton("节点查找");
         JButton btnNewTab = new JButton("新标签(N)");
         JButton btnSelTabName = new JButton("标签名修改");
-        JButton btnCloseTab = new JButton("关闭标签");
+        JButton btnCloseTab = new JButton("关闭标签(W)");
         
 //        btnFormat.setBackground(Color.GREEN);
 
@@ -323,8 +323,6 @@ public class MainView extends FrameView {
         });
         toolMenu.add(menuItemLayout);
 
-        
-
         JMenuItem menuItemNew = createMenuItem("menuItemNew", KeyEvent.VK_N);
         menuItemNew.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -340,6 +338,17 @@ public class MainView extends FrameView {
             }
         });
         toolMenu.add(menuItemCode);
+
+        JMenuItem menuItemClose = createMenuItem("menuItemClose", KeyEvent.VK_W);
+        menuItemClose.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                int selIndex = getTabIndex();
+                if(selIndex >= 0){
+                    tabDataModel.removeTab(selIndex);
+                }
+            }
+        });
+        toolMenu.add(menuItemClose);
 
         menuBar.add(toolMenu);
 
