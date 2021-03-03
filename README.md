@@ -22,4 +22,4 @@ Website: [HiJson](https://code.google.com/p/json-view/)
 * 2.1.4版本更新
   * 对值为空的键仍旧输出
   * 增加ctrl+w快速关闭当前标签
-  * 预先打包好.exe文件([点击下载](https://github.com/convictss/HiJson/blob/master/product/HiJson%202.1.4_jdk64_by_convictss.exe))
+  * 预先打包好.exe文件([点击下载](https://github.com/convictss/HiJson/releases/))
